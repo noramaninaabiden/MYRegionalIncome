@@ -1,0 +1,27 @@
+# Data — regenerable by running extract_data.py, not source
+data/bronze/*.csv
+
+# DuckDB files — regenerable by running the pipeline
+*.duckdb
+*.duckdb.wal
+
+# dbt build artifacts
+myregionalincome_dbt/target/
+myregionalincome_dbt/dbt_packages/
+myregionalincome_dbt/logs/
+
+# Contains no secrets currently (oauth method), but project-specific —
+# keep a template instead, not the real file
+myregionalincome_dbt/docker_profile/profiles.yml
+myregionalincome_dbt/docker_profile/.user.yml
+test.sql
+
+# Airflow — contains FERNET_KEY, JWT secrets, and your local ADC file path
+.env
+logs/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
