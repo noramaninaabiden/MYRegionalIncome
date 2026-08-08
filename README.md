@@ -3,6 +3,10 @@
 A data pipeline that computes inflation-adjusted household income trends by
 Malaysian state, using open government data from OpenDOSM.
 
+## Live dashboard
+
+[View on Streamlit Community Cloud](https://myregionalincome-aqxnzdehnyse68twfimnm7.streamlit.app/)
+
 ## What it answers
 
 Did household income growth actually outpace cost-of-living increases, and
