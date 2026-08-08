@@ -2,7 +2,7 @@ from pathlib import Path
 import duckdb
 from google.cloud import bigquery
 
-PROJECT_ID = "my-regional-income-504714"
+PROJECT_ID = "my-regional-income-504816"
 DATASET = "gold"
 DB_PATH = Path(__file__).parent / "my_regional_income.duckdb"
 
