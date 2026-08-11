@@ -15,6 +15,7 @@ myregionalincome_dbt/logs/
 myregionalincome_dbt/docker_profile/profiles.yml
 myregionalincome_dbt/docker_profile/.user.yml
 test.sql
+.streamlit/secrets.toml
 
 # Airflow — contains FERNET_KEY, JWT secrets, and your local ADC file path
 .env
